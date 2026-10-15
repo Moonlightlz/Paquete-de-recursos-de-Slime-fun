@@ -54,5 +54,14 @@
     "Los modelos de Supreme, InfinityExpansion2 y otros addons tienen cobertura parcial.",
     "No se incluye ExoticGarden. Los espacios de nombres adicionales del paquete combinado original se preservan por compatibilidad.",
     "Los objetos antiguos sin CustomModelData no se modifican automáticamente."
+  ],
+  "client_model_fixes": [
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "overlay": "sfl_26_1_plus",
+      "target_client": "26.2",
+      "source": "Vanilla item-model definition from the installed official Minecraft 26.2 client",
+      "change": "Restore the vanilla transformation of the fallback head model; preserve custom-model-data routes."
+    }
   ]
 }

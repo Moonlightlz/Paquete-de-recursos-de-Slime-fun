@@ -57,6 +57,11 @@ La integración de RainxEnma se entrega configurada de esa manera.
    entrada del servidor del multijugador. No se necesitan OptiFine ni mods para
    los modelos incluidos.
 
+La calavera de esqueleto del Wither incluye la transformación vanilla para
+Minecraft 26.1 y posteriores. Esto corrige el icono reducido a un punto en el
+inventario, conservando las rutas de modelos personalizados y la definición
+original para versiones anteriores.
+
 ## Objetos que ya existían
 
 `item-models.yml` se aplica a las plantillas y los objetos nuevos que crea Slimefun.

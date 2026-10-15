@@ -32,6 +32,18 @@ with zipfile.ZipFile(R/'vendor/SlimefunLegacyRP-4.0.2.zip') as base,zipfile.ZipF
         model=json.loads(out.read(p))['model']
         previous_path=p if p in base_names else p.removeprefix('sfl_26_1_plus/')
         previous=json.loads(base.read(previous_path))['model'] if previous_path in base_names else {'type':'minecraft:model','model':'minecraft:item/'+Path(previous_path).stem}
+        if p=='sfl_26_1_plus/assets/minecraft/items/wither_skeleton_skull.json':
+            import copy
+            expected=copy.deepcopy(previous)
+            expected['fallback']['fallback']['transformation']={
+                'left_rotation':[1.0,0.0,0.0,-0.0],
+                'right_rotation':[0.0,0.0,0.0,1.0],
+                'scale':[1.0,1.0,1.0],
+                'translation':[0.5,0.0,0.5]}
+            assert model==expected,'Wither skull: vanilla transform or custom routes changed'
+            assert base.read(previous_path)==out.read(previous_path),'Pre-26.1 skull definition changed'
+            checks+=2
+            continue
         assert model['fallback']==previous,p
         for entry in model['entries']:
             if entry['model']!=previous:
