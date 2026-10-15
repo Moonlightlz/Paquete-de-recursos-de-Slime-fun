@@ -1,0 +1,58 @@
+{
+  "minecraft": "26.2",
+  "pack_format": 88,
+  "upstream": {
+    "url": "https://github.com/wickidcow/SFL_RP_Official/releases/download/v4.0.2/SlimefunLegacyRP.zip",
+    "version": "4.0.2",
+    "sha256": "b5aa3859764a5d0d11007af4cfc7d7b239ae8316c27db9ab2fe8edd8c0842740"
+  },
+  "model_reference": {
+    "url": "https://github.com/wickidcow/Slimefun-Legacy/blob/f68544e/src/main/resources/item-models.yml",
+    "sha256": "bb486ec1705b01649189323465af4e53989f31b8d6d708ab33c9a6adf10d8c4d"
+  },
+  "installed_catalogue_counts": {
+    "Slimefun": 625,
+    "InfinityExpansion2": 248,
+    "JustEnoughGuide": 1573,
+    "FluffyMachines": 51,
+    "LiteXpansion": 66,
+    "DynaTech": 121,
+    "Networks": 287,
+    "Supreme": 510,
+    "SlimeTinker": 1295,
+    "FNAmplifications": 193,
+    "ElectricSpawners": 27
+  },
+  "added_model_counts": {
+    "InfinityExpansion2": 48,
+    "FluffyMachines": 28,
+    "LiteXpansion": 19,
+    "Supreme": 34,
+    "SlimeTinker": 491,
+    "ElectricSpawners": 27
+  },
+  "existing_nonzero_preserved": 613,
+  "carrier_repairs": {
+    "copper_block": [
+      2200622
+    ],
+    "iron_block": [
+      2200632
+    ],
+    "andesite": [
+      2200641
+    ],
+    "stone": [
+      2200636
+    ],
+    "ink_sac": [
+      2200802
+    ]
+  },
+  "limitations": [
+    "No se encontraron paquetes compatibles y redistribuibles para DynaTech, Networks y FNAmplifications.",
+    "Los modelos de Supreme, InfinityExpansion2 y otros addons tienen cobertura parcial.",
+    "No se incluye ExoticGarden. Los espacios de nombres adicionales del paquete combinado original se preservan por compatibilidad.",
+    "Los objetos antiguos sin CustomModelData no se modifican automáticamente."
+  ]
+}
