@@ -23,6 +23,9 @@ por el administrador, adaptadas a Minecraft 26.2:
 | Magical Gadgets | 27 |
 | InfinityExpansion2: Gear | 6 |
 
+El libro que entrega `/sf guide` también utiliza la textura de Eternals,
+conservando su asignación de modelo `2200001`.
+
 Son **177 objetos**. Se conservan los estados del arco, las variantes de élitros y
 las decoraciones de armadura. Los modelos de las cabezas se sustituyen por los
 iconos que especifica el paquete proporcionado. No se importan sus shaders,
