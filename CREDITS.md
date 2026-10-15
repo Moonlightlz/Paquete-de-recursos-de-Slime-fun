@@ -19,3 +19,18 @@ Los hashes de las fuentes y el detalle de cobertura están en `sources.json`.
 Autores acreditados en la base: Raulh22, Den4enko, LoneDev, Caribax, ybw0014,
 DragonMysterious, AnsonYK, Sofia Redmond, Jerry, haiman, RelativoBR,
 Filosofas154, JustAHuman-xD y Pandicka. Se conservan sus enlaces originales.
+
+## Selección de Eternals
+
+El propietario del servidor proporcionó `eternals.zip` para sustituir las secciones
+Resources, Useful Items, Technical Components, Miscellaneous Items, Magical
+Gadgets y el equipo de Infinity. El paquete de origen acredita a luxbx y
+https://store.eternals.top; los modelos seleccionados conservan también sus campos
+`author` originales, principalmente RaulH22 y Caribax.
+
+Solo se incorporan los archivos necesarios para esos objetos. Las imágenes y sus
+animaciones se copian sin alterarlas; los modelos se adaptan al formato actual y
+se aíslan en el espacio `rainxenma_eternals`. Los derechos de esos recursos siguen
+siendo de sus autores; la licencia GPL de las herramientas de integración no
+relicencia las texturas proporcionadas. Los hashes y la correspondencia exacta de
+objetos están en `server/eternals-selection.json`.

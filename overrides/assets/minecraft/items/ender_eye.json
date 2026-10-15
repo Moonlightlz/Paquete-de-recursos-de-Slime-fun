@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","fallback":{"type":"model","model":"item/ender_eye"},"entries":[{"threshold":2200041,"model":{"type":"model","model":"rainxenma_eternals:item/slimefun/slimefun/magical_gadgets/magic_ender_eye"}},{"threshold":2200042,"model":{"type":"model","model":"item/ender_eye"}}]}}

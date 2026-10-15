@@ -9,6 +9,40 @@ El botón de GitHub «Download ZIP» descarga el repositorio completo y no sirve
 
 ## Cobertura
 
+### Aspecto seleccionado de Eternals
+
+Se importaron únicamente las secciones solicitadas del `eternals.zip` proporcionado
+por el administrador, adaptadas a Minecraft 26.2:
+
+| Sección del servidor | Objetos con diseño de Eternals |
+|---|---:|
+| Resources | 66 |
+| Useful Items | 16 |
+| Technical Components | 20 |
+| Miscellaneous Items | 42 |
+| Magical Gadgets | 27 |
+| InfinityExpansion2: Gear | 6 |
+
+Son **177 objetos**. Se conservan los estados del arco, las variantes de élitros y
+las decoraciones de armadura. Los modelos de las cabezas se sustituyen por los
+iconos que especifica el paquete proporcionado. No se importan sus shaders,
+muebles, interfaz general ni cambios globales de Minecraft.
+
+El ZIP no contiene un diseño dedicado para `IE_INFINITY_SHIELD` ni
+`IE_INFINITY_CROSSBOW`: conservan su aspecto anterior. Tampoco trae un diseño
+separado para el frasco lleno de conocimiento ni para los alias vanilla de
+élitros, tridente y tótem incluidos en Magical Gadgets; esos cuatro se conservan.
+
+Los iconos y modelos de inventario/mano funcionan sin mods. Las capas de armadura
+equipada del ZIP original dependen de su antigua configuración OptiFine/CIT y no
+se aplican globalmente a la armadura vanilla.
+
+Para las seis piezas de Infinity se habilitan sus números de modelo históricos
+en `item-models.yml`. Esto afecta a los objetos nuevos; los objetos antiguos sin
+CustomModelData no se reescriben automáticamente.
+
+### Asignaciones de la base combinada
+
 Se conservan los modelos ya asignados a Slimefun y se añaden **647 asignaciones**
 validadas contra el material y los modelos disponibles:
 
@@ -82,7 +116,7 @@ objetos. No se debe sustituir un objeto antiguo por un objeto vanilla renombrado
 
 ```text
 python tools/build_pack.py
-python tools/validate_upstream.py dist/RainxEnma-Slimefun-26.2.zip
+python tools/validate_pack.py
 python tools/validate_integration.py
 ```
 
@@ -90,5 +124,11 @@ La construcción es determinista, no usa red y comprueba el SHA-256 de la base.
 `vendor/` contiene la publicación original, `overrides/` los cambios mínimos,
 `server/added-models.json` cada asignación añadida y `sources.json` la procedencia.
 No se publican credenciales ni archivos privados del servidor.
+
+`vendor/eternals-selected.zip` contiene solo los recursos originales seleccionados;
+`server/eternals-selection.json` enumera sus hashes, objetos y cambios de modelos.
+`tools/validate_pack.py` ejecuta las guardas originales y comprueba que las
+adaptaciones de Eternals solo afectan a los objetos listados, conservando las
+imágenes originales y el resto de las rutas de cada material.
 
 Ver [CREDITS.md](CREDITS.md) y [LICENSE](LICENSE).

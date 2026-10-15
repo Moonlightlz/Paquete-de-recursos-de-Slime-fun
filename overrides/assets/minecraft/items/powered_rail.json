@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","fallback":{"type":"model","model":"item/powered_rail"},"entries":[{"threshold":2200052,"model":{"type":"model","model":"rainxenma_eternals:item/slimefun/slimefun/technical_components/advanced_board"}},{"threshold":2200053,"model":{"type":"model","model":"item/powered_rail"}}]}}

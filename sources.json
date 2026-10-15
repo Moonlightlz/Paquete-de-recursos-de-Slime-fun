@@ -63,5 +63,37 @@
       "source": "Vanilla item-model definition from the installed official Minecraft 26.2 client",
       "change": "Restore the vanilla transformation of the fallback head model; preserve custom-model-data routes."
     }
-  ]
+  ],
+  "eternals_selection": {
+    "source": "User-supplied eternals.zip",
+    "original_sha256": "873b8bb0dfe5ce5c90b7e5b3158d9e0b48c235b5546d22dcdff3b0e5a9373b00",
+    "selected_source_zip": "vendor/eternals-selected.zip",
+    "selected_source_sha256": "f8e4ff486049f172571bceaa3872503e1d1a5f48e51cbeab715ba41c0895992f",
+    "categories": [
+      "infinityexpansion2:gear",
+      "slimefun:items",
+      "slimefun:magical_gadgets",
+      "slimefun:misc",
+      "slimefun:resources",
+      "slimefun:tech_misc"
+    ],
+    "counts": {
+      "slimefun:items": 16,
+      "slimefun:magical_gadgets": 27,
+      "slimefun:tech_misc": 20,
+      "slimefun:misc": 42,
+      "slimefun:resources": 66,
+      "infinityexpansion2:gear": 6
+    },
+    "unchanged_items_without_dedicated_source_design": [
+      "FILLED_FLASK_OF_KNOWLEDGE",
+      "ELYTRA",
+      "TRIDENT",
+      "TOTEM_OF_UNDYING",
+      "IE_INFINITY_SHIELD",
+      "IE_INFINITY_CROSSBOW"
+    ],
+    "target": "Minecraft 26.2 item icons and hand-held models",
+    "isolation_namespace": "rainxenma_eternals"
+  }
 }

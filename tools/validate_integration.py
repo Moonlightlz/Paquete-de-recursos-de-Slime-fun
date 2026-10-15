@@ -1,10 +1,12 @@
 """Check exact model routing and preservation of all unchanged upstream files."""
 from pathlib import Path
 import json,zipfile
+from eternals_validation import before_carrier,load
 R=Path(__file__).resolve().parents[1]
 with zipfile.ZipFile(R/'vendor/SlimefunLegacyRP-4.0.2.zip') as base,zipfile.ZipFile(R/'dist/RainxEnma-Slimefun-26.2.zip') as out:
     base_names=set(base.namelist());out_names=set(out.namelist())
     allowed={p.relative_to(R/'overrides').as_posix() for p in (R/'overrides').rglob('*') if p.is_file()}
+    eternals=load()
     checks=0
     for p in base.namelist():
         if p.endswith('/'):continue
@@ -24,12 +26,14 @@ with zipfile.ZipFile(R/'vendor/SlimefunLegacyRP-4.0.2.zip') as base,zipfile.ZipF
         carrier=item['material'].lower();p=f'assets/minecraft/items/{carrier}.json'
         overlay='sfl_26_1_plus/'+p
         for path in [overlay if overlay in out_names else p]:
-            model=json.loads(out.read(path))['model'];n=item['custom_model_data']
+            model=before_carrier(path,json.loads(out.read(path)))['model'];n=item['custom_model_data']
             assert numbers(model).get(n)==item['model'],item['id']
             checks+=1
     for p in allowed:
         if p=='pack.mcmeta':continue
-        model=json.loads(out.read(p))['model']
+        if not p.startswith(('assets/minecraft/items/','sfl_26_1_plus/assets/minecraft/items/')):continue
+        if Path(p).stem not in {'andesite','copper_block','ink_sac','iron_block','stone','wither_skeleton_skull'}:continue
+        model=before_carrier(p,json.loads(out.read(p)))['model']
         previous_path=p if p in base_names else p.removeprefix('sfl_26_1_plus/')
         previous=json.loads(base.read(previous_path))['model'] if previous_path in base_names else {'type':'minecraft:model','model':'minecraft:item/'+Path(previous_path).stem}
         if p=='sfl_26_1_plus/assets/minecraft/items/wither_skeleton_skull.json':
