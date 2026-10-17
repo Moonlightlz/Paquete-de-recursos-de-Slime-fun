@@ -1,5 +1,29 @@
 # Recursos de Slimefun para RainxEnma
 
+## Paquete completo del servidor
+
+`dist/RainxEnma-Completo-26.2.zip` une la base personalizada de Slimefun de este
+repositorio con los recursos internos de ItemsAdder 4.0.18 y los recursos de
+EcoItems 2026.41.1. Conserva los modelos y texturas personalizados, incluido el
+libro de Eternals. No requiere que el jugador instale tres paquetes separados.
+
+La descarga que utiliza el servidor es
+`http://ny05.holy.gg:26529/resourcepack`: **el puerto 26529 forma parte de la URL**.
+ItemsAdder genera y distribuye ese ZIP; EcoItems no envía otro paquete independiente.
+Un fallo de descarga no expulsa ni inmoviliza al jugador.
+
+`dist/combined-checksums.json` contiene las huellas y el inventario del ZIP completo.
+Para actualizar su copia desde el servidor se puede ejecutar
+`python tools/store_server_pack.py`; también admite `--source ruta/al/generated.zip`.
+El programa verifica que conserve los archivos de Slimefun y los recursos de
+ambos plugins. `tools/build_pack.py` sigue reconstruyendo únicamente la base de
+Slimefun, que se mantiene separada para poder regenerar la combinación.
+
+Los recursos de EcoItems proceden del generador incluido en el plugin comprado;
+los de ItemsAdder, de su generador interno. El DefaultPack oficial de ItemsAdder
+es contenido opcional con objetos, recetas y generación de minerales adicionales;
+no es necesario para cargar las interfaces ya instaladas.
+
 Paquete combinado para **Minecraft Java 26.2**, basado en
 [Slimefun Legacy RP 4.0.2](https://github.com/wickidcow/SFL_RP_Official/releases/tag/v4.0.2).
 
