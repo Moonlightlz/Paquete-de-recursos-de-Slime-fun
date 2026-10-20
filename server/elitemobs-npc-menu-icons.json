@@ -1,0 +1,49 @@
+{
+  "scope": "EliteMobs NPC menu icons only",
+  "baseline_commit": "039cce40d977c0077b9fff22b7ddaed5f10d9057",
+  "baseline_sha256": "7e3be6a1fb0f3aad56ea262710b4b9eb059e71afb877f2b19fa3872429ffc1a5",
+  "asset_changed": "assets/minecraft/atlases/items.json",
+  "original_sources": 3584,
+  "added_sprites": [
+    "elitemobs:ui/anvilhammer",
+    "elitemobs:ui/bagofcoins",
+    "elitemobs:ui/boxinput",
+    "elitemobs:ui/boxoutput",
+    "elitemobs:ui/darkgraylock",
+    "elitemobs:ui/goldenquestionmark",
+    "elitemobs:ui/graylock",
+    "elitemobs:ui/greenlock",
+    "elitemobs:ui/handwithcoins",
+    "elitemobs:ui/redcross",
+    "elitemobs:ui/redcrown",
+    "elitemobs:ui/redlock",
+    "elitemobs:ui/whiteanvil",
+    "elitemobs:ui/yellowcrown",
+    "elitemobs:ui/yellowlock"
+  ],
+  "unchanged_model_files": [
+    "assets/elitemobs/models/ui/anvilhammer.json",
+    "assets/elitemobs/models/ui/bagofcoins.json",
+    "assets/elitemobs/models/ui/boxinput.json",
+    "assets/elitemobs/models/ui/boxoutput.json",
+    "assets/elitemobs/models/ui/darkgraylock.json",
+    "assets/elitemobs/models/ui/goldenquestionmark.json",
+    "assets/elitemobs/models/ui/graylock.json",
+    "assets/elitemobs/models/ui/greenlock.json",
+    "assets/elitemobs/models/ui/handwithcoins.json",
+    "assets/elitemobs/models/ui/redcross.json",
+    "assets/elitemobs/models/ui/redcrown.json",
+    "assets/elitemobs/models/ui/redlock.json",
+    "assets/elitemobs/models/ui/whiteanvil.json",
+    "assets/elitemobs/models/ui/yellowcrown.json",
+    "assets/elitemobs/models/ui/yellowlock.json"
+  ],
+  "menus": [
+    "Guild Rank Selection",
+    "Enchantment Menu",
+    "Unbind menu",
+    "Scrapper",
+    "Repair menu",
+    "Buy or Sell"
+  ]
+}

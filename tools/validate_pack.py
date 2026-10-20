@@ -4,10 +4,12 @@ import json,zipfile
 import validate_upstream as upstream
 from eternals_validation import validate,load
 import elitemobs_validation as elite
+import validate_elitemobs_npc_icons as npc_icons
 
 ROOT=Path(__file__).resolve().parents[1]
 pack=ROOT/'dist/RainxEnma-Slimefun-26.2.zip'
 elite.validate(pack)
+npc_icons.validate(pack)
 validate(pack)
 m=load()
 with zipfile.ZipFile(ROOT/'vendor/eternals-baseline-carriers.zip') as before,zipfile.ZipFile(pack) as after:
