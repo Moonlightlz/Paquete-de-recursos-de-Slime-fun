@@ -34,3 +34,10 @@ se aíslan en el espacio `rainxenma_eternals`. Los derechos de esos recursos sig
 siendo de sus autores; la licencia GPL de las herramientas de integración no
 relicencia las texturas proporcionadas. Los hashes y la correspondencia exacta de
 objetos están en `server/eternals-selection.json`.
+
+## EliteMobs
+
+Iconos, modelos, texturas y fondos del paquete oficial de EliteMobs de MagmaGuy:
+https://magmaguy.com/downloads/elitemobs_resource_pack.zip .
+Se conservan sus recursos y campos de autor; las adaptaciones de rutas de
+Minecraft 26.2 no alteran la titularidad de esos recursos.

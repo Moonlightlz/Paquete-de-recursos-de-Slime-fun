@@ -102,5 +102,12 @@
     "destination": "assets/slimefun/textures/item/slimefun/gui/slimefun_guide.png",
     "sha256": "c342374036883ec266d5b9167b476b42c7981ae63363524979480fe5ba1e6d41",
     "custom_model_data": 2200001
+  },
+  "elitemobs": {
+    "url": "https://magmaguy.com/downloads/elitemobs_resource_pack.zip",
+    "retrieved": "2026-10-19",
+    "sha256": "fb0b351a7fb10a995dc79b6d5ee611e869e583ae459a0b2aeb958258f7054763",
+    "compatibility": "Minecraft Java 26.2; numeric custom_model_data and namespaced item_model; modern space font providers",
+    "routes": "server/elitemobs-integration.json"
   }
 }

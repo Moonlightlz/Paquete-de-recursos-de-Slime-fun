@@ -1,6 +1,7 @@
 """Validate the scoped Eternals migration against original carrier definitions."""
 from pathlib import Path
 import collections,copy,hashlib,json,zipfile
+from elitemobs_validation import strip
 ROOT=Path(__file__).resolve().parents[1]
 
 def load():return json.loads((ROOT/'server/eternals-selection.json').read_text(encoding='utf-8'))
@@ -33,7 +34,7 @@ def validate(pack):
                 elif isinstance(node,list):
                     for value in node:apply(value)
             apply(expected)
-            assert expected==json.loads(out.read(path)),f'Unapproved carrier change: {path}'
+            assert expected==strip(path,json.loads(out.read(path))),f'Unapproved carrier change: {path}'
             checks+=1
         for path,expected in m['source_files'].items():
             assert hashlib.sha256(source.read(path)).hexdigest()==expected,path

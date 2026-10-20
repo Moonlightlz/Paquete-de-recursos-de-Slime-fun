@@ -135,3 +135,15 @@ adaptaciones de Eternals solo afectan a los objetos listados, conservando las
 imágenes originales y el resto de las rutas de cada material.
 
 Ver [CREDITS.md](CREDITS.md) y [LICENSE](LICENSE).
+
+## EliteMobs · actualización 1.0.42
+
+Se integran los recursos oficiales de EliteMobs para reparar los iconos del gremio,
+las tiendas y los talleres. Se conservan las asignaciones anteriores de Slimefun y
+cosméticos. Las asignaciones por CustomModelData se adaptan a las definiciones
+modernas y se incluyen también las rutas `elitemobs:ui/*` de `item_model`.
+Los separadores de las fuentes se convierten a proveedores `space` compatibles.
+
+Los mapas, los plugins, los archivos de jugadores y los paquetes comprados de
+mazmorras permanecen fuera del repositorio público. Los detalles de integración
+se registran en `server/elitemobs-integration.json`.

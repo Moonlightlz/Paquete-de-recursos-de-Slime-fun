@@ -1,0 +1,1 @@
+{"model":{"type":"minecraft:range_dispatch","property":"minecraft:custom_model_data","index":0,"fallback":{"type":"minecraft:model","model":"minecraft:item/barrier"},"entries":[{"threshold":31173,"model":{"type":"minecraft:model","model":"elitemobs:ui/redcross"}},{"threshold":31174,"model":{"type":"minecraft:model","model":"minecraft:item/barrier"}}]}}

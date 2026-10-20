@@ -1,0 +1,443 @@
+{
+  "size": 17090896,
+  "sha1": "1c95e71864eadd5c5e01ab95da83ffea7f810bf8",
+  "sha256": "a2b1f5cff859d0daa5e363b31ac3d672e4abe572a4c4d998342c89ce5f5371a3",
+  "routes": [
+    {
+      "item": "assets/minecraft/items/barrier.json",
+      "models": {
+        "31173": "elitemobs:ui/redcross"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/diamond.json",
+      "models": {
+        "1": "elitemobs:coins/coin3"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/diamond_axe.json",
+      "models": {
+        "1": "elitemobs:equipment/bronze_axe",
+        "2": "elitemobs:equipment/palladium_axe",
+        "3": "elitemobs:equipment/corrupted_axe",
+        "4": "elitemobs:equipment/living_axe",
+        "5": "elitemobs:equipment/ultimatium_axe"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/diamond_block.json",
+      "models": {
+        "1": "elitemobs:coins/coin4"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/diamond_hoe.json",
+      "models": {
+        "1": "elitemobs:equipment/bronze_scythe",
+        "2": "elitemobs:equipment/palladium_scythe",
+        "3": "elitemobs:equipment/corrupted_scythe",
+        "4": "elitemobs:equipment/living_scythe",
+        "5": "elitemobs:equipment/ultimatium_scythe"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/diamond_sword.json",
+      "models": {
+        "1": "elitemobs:equipment/bronze_sword",
+        "2": "elitemobs:equipment/palladium_sword",
+        "3": "elitemobs:equipment/corrupted_sword",
+        "4": "elitemobs:equipment/living_sword",
+        "5": "elitemobs:equipment/ultimatium_sword",
+        "6": "elitemobs:equipment/bronze_trident",
+        "7": "elitemobs:equipment/palladium_trident",
+        "8": "elitemobs:equipment/corrupted_trident",
+        "9": "elitemobs:equipment/living_trident",
+        "10": "elitemobs:equipment/ultimatium_trident"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/emerald.json",
+      "models": {
+        "1": "elitemobs:coins/coin2",
+        "31173": "elitemobs:ui/bagofcoins",
+        "31174": "elitemobs:ui/anvilhammer",
+        "31175": "elitemobs:ui/whiteanvil"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/emerald_block.json",
+      "models": {
+        "1": "elitemobs:coins/coin3"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/gold_block.json",
+      "models": {
+        "1": "elitemobs:coins/coin2",
+        "31173": "elitemobs:ui/yellowcrown"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/gold_ingot.json",
+      "models": {
+        "1": "elitemobs:coins/coin1"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/gold_nugget.json",
+      "models": {
+        "1": "elitemobs:coins/coin1"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/gray_stained_glass_pane.json",
+      "models": {
+        "31173": "elitemobs:ui/darkgraylock"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/green_banner.json",
+      "models": {
+        "31173": "elitemobs:ui/boxinput"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/green_stained_glass_pane.json",
+      "models": {
+        "31173": "elitemobs:ui/greenlock"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/iron_horse_armor.json",
+      "models": {
+        "1": "elitemobs:equipment/bronze_helmet",
+        "2": "elitemobs:equipment/palladium_helmet",
+        "3": "elitemobs:equipment/corrupted_helmet",
+        "4": "elitemobs:equipment/living_helmet",
+        "5": "elitemobs:equipment/ultimatium_helmet"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/netherite_sword.json",
+      "models": {
+        "1": "elitemobs:equipment/primis_gladius_sword",
+        "2": "elitemobs:equipment/frost_palace_fire_sword",
+        "3": "elitemobs:equipment/frost_palace_ice_sword"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/nether_star.json",
+      "models": {
+        "1": "elitemobs:coins/coin4"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/paper.json",
+      "models": {
+        "31173": "elitemobs:ui/goldenquestionmark",
+        "31175": "elitemobs:primis_map/primis_map_1",
+        "31176": "elitemobs:primis_map/primis_map_2",
+        "31177": "elitemobs:primis_map/primis_map_3",
+        "31178": "elitemobs:primis_map/primis_map_4",
+        "31179": "elitemobs:primis_map/primis_map_5",
+        "31180": "elitemobs:primis_map/primis_map_6",
+        "31181": "elitemobs:primis_map/primis_map_7",
+        "31182": "elitemobs:primis_map/primis_map_8",
+        "31183": "elitemobs:primis_map/primis_map_9"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/redstone.json",
+      "models": {
+        "31173": "elitemobs:ui/handwithcoins"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/red_banner.json",
+      "models": {
+        "31173": "elitemobs:ui/boxoutput"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/red_stained_glass.json",
+      "models": {
+        "31173": "elitemobs:ui/redcrown"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/red_stained_glass_pane.json",
+      "models": {
+        "31173": "elitemobs:ui/redlock"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/wooden_sword.json",
+      "models": {
+        "1": "elitemobs:equipment/magmaguys_toothpick"
+      }
+    },
+    {
+      "item": "assets/minecraft/items/yellow_stained_glass_pane.json",
+      "models": {
+        "31173": "elitemobs:ui/yellowlock"
+      }
+    }
+  ],
+  "preserved_original_assets": 11287,
+  "added_elitemobs_assets": 222,
+  "space_advances": {
+    "": -17,
+    "": -183
+  },
+  "changed_or_added_files": [
+    "assets/elitemobs/items/coins/coin1.json",
+    "assets/elitemobs/items/coins/coin2.json",
+    "assets/elitemobs/items/coins/coin3.json",
+    "assets/elitemobs/items/coins/coin4.json",
+    "assets/elitemobs/items/elitescroll/elitescroll.json",
+    "assets/elitemobs/items/equipment/bronze_axe.json",
+    "assets/elitemobs/items/equipment/bronze_helmet.json",
+    "assets/elitemobs/items/equipment/bronze_scythe.json",
+    "assets/elitemobs/items/equipment/bronze_sword.json",
+    "assets/elitemobs/items/equipment/bronze_trident.json",
+    "assets/elitemobs/items/equipment/corrupted_axe.json",
+    "assets/elitemobs/items/equipment/corrupted_helmet.json",
+    "assets/elitemobs/items/equipment/corrupted_scythe.json",
+    "assets/elitemobs/items/equipment/corrupted_sword.json",
+    "assets/elitemobs/items/equipment/corrupted_trident.json",
+    "assets/elitemobs/items/equipment/frost_palace_fire_sword.json",
+    "assets/elitemobs/items/equipment/frost_palace_ice_sword.json",
+    "assets/elitemobs/items/equipment/living_axe.json",
+    "assets/elitemobs/items/equipment/living_helmet.json",
+    "assets/elitemobs/items/equipment/living_scythe.json",
+    "assets/elitemobs/items/equipment/living_sword.json",
+    "assets/elitemobs/items/equipment/living_trident.json",
+    "assets/elitemobs/items/equipment/magmaguys_toothpick.json",
+    "assets/elitemobs/items/equipment/palladium_axe.json",
+    "assets/elitemobs/items/equipment/palladium_helmet.json",
+    "assets/elitemobs/items/equipment/palladium_scythe.json",
+    "assets/elitemobs/items/equipment/palladium_sword.json",
+    "assets/elitemobs/items/equipment/palladium_trident.json",
+    "assets/elitemobs/items/equipment/primis_gladius_sword.json",
+    "assets/elitemobs/items/equipment/ultimatium_axe.json",
+    "assets/elitemobs/items/equipment/ultimatium_helmet.json",
+    "assets/elitemobs/items/equipment/ultimatium_scythe.json",
+    "assets/elitemobs/items/equipment/ultimatium_sword.json",
+    "assets/elitemobs/items/equipment/ultimatium_trident.json",
+    "assets/elitemobs/items/primis_map/primis_map_1.json",
+    "assets/elitemobs/items/primis_map/primis_map_2.json",
+    "assets/elitemobs/items/primis_map/primis_map_3.json",
+    "assets/elitemobs/items/primis_map/primis_map_4.json",
+    "assets/elitemobs/items/primis_map/primis_map_5.json",
+    "assets/elitemobs/items/primis_map/primis_map_6.json",
+    "assets/elitemobs/items/primis_map/primis_map_7.json",
+    "assets/elitemobs/items/primis_map/primis_map_8.json",
+    "assets/elitemobs/items/primis_map/primis_map_9.json",
+    "assets/elitemobs/items/ui/anvilhammer.json",
+    "assets/elitemobs/items/ui/bagofcoins.json",
+    "assets/elitemobs/items/ui/boxinput.json",
+    "assets/elitemobs/items/ui/boxoutput.json",
+    "assets/elitemobs/items/ui/darkgraylock.json",
+    "assets/elitemobs/items/ui/goldenquestionmark.json",
+    "assets/elitemobs/items/ui/graylock.json",
+    "assets/elitemobs/items/ui/greenlock.json",
+    "assets/elitemobs/items/ui/handwithcoins.json",
+    "assets/elitemobs/items/ui/redcross.json",
+    "assets/elitemobs/items/ui/redcrown.json",
+    "assets/elitemobs/items/ui/redlock.json",
+    "assets/elitemobs/items/ui/whiteanvil.json",
+    "assets/elitemobs/items/ui/yellowcrown.json",
+    "assets/elitemobs/items/ui/yellowlock.json",
+    "assets/elitemobs/models/coins/coin1.json",
+    "assets/elitemobs/models/coins/coin2.json",
+    "assets/elitemobs/models/coins/coin3.json",
+    "assets/elitemobs/models/coins/coin4.json",
+    "assets/elitemobs/models/elitescroll/elitescroll.json",
+    "assets/elitemobs/models/equipment/bronze_axe.json",
+    "assets/elitemobs/models/equipment/bronze_helmet.json",
+    "assets/elitemobs/models/equipment/bronze_scythe.json",
+    "assets/elitemobs/models/equipment/bronze_sword.json",
+    "assets/elitemobs/models/equipment/bronze_trident.json",
+    "assets/elitemobs/models/equipment/corrupted_axe.json",
+    "assets/elitemobs/models/equipment/corrupted_helmet.json",
+    "assets/elitemobs/models/equipment/corrupted_scythe.json",
+    "assets/elitemobs/models/equipment/corrupted_sword.json",
+    "assets/elitemobs/models/equipment/corrupted_trident.json",
+    "assets/elitemobs/models/equipment/frost_palace_fire_sword.json",
+    "assets/elitemobs/models/equipment/frost_palace_ice_sword.json",
+    "assets/elitemobs/models/equipment/living_axe.json",
+    "assets/elitemobs/models/equipment/living_helmet.json",
+    "assets/elitemobs/models/equipment/living_scythe.json",
+    "assets/elitemobs/models/equipment/living_sword.json",
+    "assets/elitemobs/models/equipment/living_trident.json",
+    "assets/elitemobs/models/equipment/magmaguys_toothpick.json",
+    "assets/elitemobs/models/equipment/palladium_axe.json",
+    "assets/elitemobs/models/equipment/palladium_helmet.json",
+    "assets/elitemobs/models/equipment/palladium_scythe.json",
+    "assets/elitemobs/models/equipment/palladium_sword.json",
+    "assets/elitemobs/models/equipment/palladium_trident.json",
+    "assets/elitemobs/models/equipment/primis_gladius_sword.json",
+    "assets/elitemobs/models/equipment/ultimatium_axe.json",
+    "assets/elitemobs/models/equipment/ultimatium_helmet.json",
+    "assets/elitemobs/models/equipment/ultimatium_scythe.json",
+    "assets/elitemobs/models/equipment/ultimatium_sword.json",
+    "assets/elitemobs/models/equipment/ultimatium_trident.json",
+    "assets/elitemobs/models/primis_map/primis_map_1.json",
+    "assets/elitemobs/models/primis_map/primis_map_2.json",
+    "assets/elitemobs/models/primis_map/primis_map_3.json",
+    "assets/elitemobs/models/primis_map/primis_map_4.json",
+    "assets/elitemobs/models/primis_map/primis_map_5.json",
+    "assets/elitemobs/models/primis_map/primis_map_6.json",
+    "assets/elitemobs/models/primis_map/primis_map_7.json",
+    "assets/elitemobs/models/primis_map/primis_map_8.json",
+    "assets/elitemobs/models/primis_map/primis_map_9.json",
+    "assets/elitemobs/models/ui/anvilhammer.json",
+    "assets/elitemobs/models/ui/bagofcoins.json",
+    "assets/elitemobs/models/ui/boxinput.json",
+    "assets/elitemobs/models/ui/boxoutput.json",
+    "assets/elitemobs/models/ui/darkgraylock.json",
+    "assets/elitemobs/models/ui/goldenquestionmark.json",
+    "assets/elitemobs/models/ui/graylock.json",
+    "assets/elitemobs/models/ui/greenlock.json",
+    "assets/elitemobs/models/ui/handwithcoins.json",
+    "assets/elitemobs/models/ui/redcross.json",
+    "assets/elitemobs/models/ui/redcrown.json",
+    "assets/elitemobs/models/ui/redlock.json",
+    "assets/elitemobs/models/ui/whiteanvil.json",
+    "assets/elitemobs/models/ui/yellowcrown.json",
+    "assets/elitemobs/models/ui/yellowlock.json",
+    "assets/elitemobs/sounds.json",
+    "assets/elitemobs/textures/coins/coin1.png",
+    "assets/elitemobs/textures/coins/coin2.png",
+    "assets/elitemobs/textures/coins/coin3.png",
+    "assets/elitemobs/textures/coins/coin4.png",
+    "assets/elitemobs/textures/elitescroll/elitescroll.png",
+    "assets/elitemobs/textures/gui/arenamenu.png",
+    "assets/elitemobs/textures/gui/buyorsell.png",
+    "assets/elitemobs/textures/gui/customitemshop.png",
+    "assets/elitemobs/textures/gui/customitemshop2.png",
+    "assets/elitemobs/textures/gui/proceduralitemshop.png",
+    "assets/elitemobs/textures/gui/ranksmenu.png",
+    "assets/elitemobs/textures/gui/refinemenu.png",
+    "assets/elitemobs/textures/gui/repairmenu.png",
+    "assets/elitemobs/textures/gui/scrappermenu.png",
+    "assets/elitemobs/textures/gui/sellmenu.png",
+    "assets/elitemobs/textures/gui/smeltmenu.png",
+    "assets/elitemobs/textures/gui/unbind.png",
+    "assets/elitemobs/textures/items/ancientpalladiumaxe.png",
+    "assets/elitemobs/textures/items/ancientpalladiumaxe.png.mcmeta",
+    "assets/elitemobs/textures/items/ancientpalladiumhelmet.png",
+    "assets/elitemobs/textures/items/ancientpalladiumhelmet.png.mcmeta",
+    "assets/elitemobs/textures/items/ancientpalladiumscythe.png",
+    "assets/elitemobs/textures/items/ancientpalladiumscythe.png.mcmeta",
+    "assets/elitemobs/textures/items/ancientpalladiumsword.png",
+    "assets/elitemobs/textures/items/ancientpalladiumsword.png.mcmeta",
+    "assets/elitemobs/textures/items/ancientpalladiumtrident1.png",
+    "assets/elitemobs/textures/items/ancientpalladiumtrident1.png.mcmeta",
+    "assets/elitemobs/textures/items/bronzeaxe.png",
+    "assets/elitemobs/textures/items/bronzeaxe.png.mcmeta",
+    "assets/elitemobs/textures/items/bronzehelmet.png",
+    "assets/elitemobs/textures/items/bronzehelmet.png.mcmeta",
+    "assets/elitemobs/textures/items/bronzescythe.png",
+    "assets/elitemobs/textures/items/bronzescythe.png.mcmeta",
+    "assets/elitemobs/textures/items/bronzesword.png",
+    "assets/elitemobs/textures/items/bronzesword.png.mcmeta",
+    "assets/elitemobs/textures/items/bronzetrident.png",
+    "assets/elitemobs/textures/items/bronzetrident1.png",
+    "assets/elitemobs/textures/items/bronzetrident1.png.mcmeta",
+    "assets/elitemobs/textures/items/corruptedgoldaxe.png",
+    "assets/elitemobs/textures/items/corruptedgoldaxe.png.mcmeta",
+    "assets/elitemobs/textures/items/corruptedgoldhelmet.png",
+    "assets/elitemobs/textures/items/corruptedgoldhelmet.png.mcmeta",
+    "assets/elitemobs/textures/items/corruptedgoldscythe1.png",
+    "assets/elitemobs/textures/items/corruptedgoldscythe1.png.mcmeta",
+    "assets/elitemobs/textures/items/corruptedgoldsword1.png",
+    "assets/elitemobs/textures/items/corruptedgoldsword1.png.mcmeta",
+    "assets/elitemobs/textures/items/corruptedgoldtrident1.png",
+    "assets/elitemobs/textures/items/corruptedgoldtrident1.png.mcmeta",
+    "assets/elitemobs/textures/items/corruptedtrident2.png",
+    "assets/elitemobs/textures/items/corruptedtrident2.png.mcmeta",
+    "assets/elitemobs/textures/items/cursed_sword.png",
+    "assets/elitemobs/textures/items/cursed_sword.png.mcmeta",
+    "assets/elitemobs/textures/items/frost_palace_fire_sword.png",
+    "assets/elitemobs/textures/items/frost_palace_ice_sword.png",
+    "assets/elitemobs/textures/items/gladius_texture.png",
+    "assets/elitemobs/textures/items/livingaxe.png",
+    "assets/elitemobs/textures/items/livingaxe.png.mcmeta",
+    "assets/elitemobs/textures/items/livinghelmet.png",
+    "assets/elitemobs/textures/items/livinghelmet.png.mcmeta",
+    "assets/elitemobs/textures/items/livingscythe.png",
+    "assets/elitemobs/textures/items/livingscythe.png.mcmeta",
+    "assets/elitemobs/textures/items/livingsword.png",
+    "assets/elitemobs/textures/items/livingsword.png.mcmeta",
+    "assets/elitemobs/textures/items/livingtrident1.png",
+    "assets/elitemobs/textures/items/livingtrident1.png.mcmeta",
+    "assets/elitemobs/textures/items/magmaguys_toothpick_voxels_atlas.png",
+    "assets/elitemobs/textures/items/magmaguystoothpick.png",
+    "assets/elitemobs/textures/items/magmaguystoothpicktexture.png",
+    "assets/elitemobs/textures/items/ultimatiumaxe.png",
+    "assets/elitemobs/textures/items/ultimatiumaxe.png.mcmeta",
+    "assets/elitemobs/textures/items/ultimatiumhelmet.png",
+    "assets/elitemobs/textures/items/ultimatiumhelmet.png.mcmeta",
+    "assets/elitemobs/textures/items/ultimatiumscythe.png",
+    "assets/elitemobs/textures/items/ultimatiumscythe.png.mcmeta",
+    "assets/elitemobs/textures/items/ultimatiumsword.png",
+    "assets/elitemobs/textures/items/ultimatiumsword.png.mcmeta",
+    "assets/elitemobs/textures/items/ultimatiumtrident1.png",
+    "assets/elitemobs/textures/items/ultimatiumtrident1.png.mcmeta",
+    "assets/elitemobs/textures/primis_map/primis_map_01.png",
+    "assets/elitemobs/textures/primis_map/primis_map_02.png",
+    "assets/elitemobs/textures/primis_map/primis_map_03.png",
+    "assets/elitemobs/textures/primis_map/primis_map_04.png",
+    "assets/elitemobs/textures/primis_map/primis_map_05.png",
+    "assets/elitemobs/textures/primis_map/primis_map_06.png",
+    "assets/elitemobs/textures/primis_map/primis_map_07.png",
+    "assets/elitemobs/textures/primis_map/primis_map_08.png",
+    "assets/elitemobs/textures/primis_map/primis_map_09.png",
+    "assets/elitemobs/textures/ui/anvilhammer.png",
+    "assets/elitemobs/textures/ui/bagofcoins.png",
+    "assets/elitemobs/textures/ui/blank_gui_button.png",
+    "assets/elitemobs/textures/ui/boxinput.png",
+    "assets/elitemobs/textures/ui/boxoutput.png",
+    "assets/elitemobs/textures/ui/darkgraylock.png",
+    "assets/elitemobs/textures/ui/goldenquestionmark.png",
+    "assets/elitemobs/textures/ui/graylock.png",
+    "assets/elitemobs/textures/ui/greenlock.png",
+    "assets/elitemobs/textures/ui/handwithcoins.png",
+    "assets/elitemobs/textures/ui/redcross.png",
+    "assets/elitemobs/textures/ui/redcrown.png",
+    "assets/elitemobs/textures/ui/redlock.png",
+    "assets/elitemobs/textures/ui/space_nosplit.png",
+    "assets/elitemobs/textures/ui/space_split.png",
+    "assets/elitemobs/textures/ui/whiteanvil.png",
+    "assets/elitemobs/textures/ui/yellowcrown.png",
+    "assets/elitemobs/textures/ui/yellowlock.png",
+    "assets/minecraft/font/default.json",
+    "assets/minecraft/items/barrier.json",
+    "assets/minecraft/items/diamond.json",
+    "assets/minecraft/items/diamond_axe.json",
+    "assets/minecraft/items/diamond_block.json",
+    "assets/minecraft/items/diamond_hoe.json",
+    "assets/minecraft/items/diamond_sword.json",
+    "assets/minecraft/items/emerald.json",
+    "assets/minecraft/items/emerald_block.json",
+    "assets/minecraft/items/gold_block.json",
+    "assets/minecraft/items/gold_ingot.json",
+    "assets/minecraft/items/gold_nugget.json",
+    "assets/minecraft/items/gray_stained_glass_pane.json",
+    "assets/minecraft/items/green_banner.json",
+    "assets/minecraft/items/green_stained_glass_pane.json",
+    "assets/minecraft/items/iron_horse_armor.json",
+    "assets/minecraft/items/nether_star.json",
+    "assets/minecraft/items/netherite_sword.json",
+    "assets/minecraft/items/paper.json",
+    "assets/minecraft/items/red_banner.json",
+    "assets/minecraft/items/red_stained_glass.json",
+    "assets/minecraft/items/red_stained_glass_pane.json",
+    "assets/minecraft/items/redstone.json",
+    "assets/minecraft/items/wooden_sword.json",
+    "assets/minecraft/items/yellow_stained_glass_pane.json",
+    "pack.mcmeta"
+  ]
+}
