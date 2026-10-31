@@ -11,7 +11,7 @@ TEXTURE = "assets/rainxauraboost/textures/item/nucleo_aurico.png"
 with zipfile.ZipFile(PACK) as pack, zipfile.ZipFile(ROOT / "vendor/SlimefunLegacyRP-4.0.2.zip") as base:
     assert "assets/rainxauraboost/models/item/nucleo_aurico.json" in pack.namelist()
     assert TEXTURE in pack.namelist()
-    assert pack.read(TEXTURE)[:8] == b"\\x89PNG\\r\\n\\x1a\\n"
+    assert pack.read(TEXTURE)[:8] == bytes.fromhex("89504e470d0a1a0a")
     data = json.loads(pack.read(CARRIER))
     model = data["model"]
     assert model["type"] == "minecraft:range_dispatch"
