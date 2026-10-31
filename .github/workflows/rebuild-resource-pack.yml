@@ -1,0 +1,39 @@
+name: Reconstruir paquete central
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'overrides/**'
+      - 'tools/**'
+      - 'vendor/**'
+      - 'sources.json'
+      - '.github/workflows/rebuild-resource-pack.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: resource-pack-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Construir ZIP determinista
+        run: python tools/build_pack.py
+      - name: Validar compatibilidad
+        run: |
+          python tools/validate_pack.py
+          python tools/validate_integration.py
+          python tools/validate_rainxauraboost.py
+      - name: Publicar ZIP y checksum
+        run: |
+          if [ -n "$(git status --porcelain -- dist/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dist/RainxEnma-Slimefun-26.2.zip dist/checksums.json
+            git commit -m "build: actualizar paquete central con Nucleo Aurico"
+            git push
+          fi

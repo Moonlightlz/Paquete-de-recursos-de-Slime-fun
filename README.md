@@ -147,3 +147,11 @@ Los separadores de las fuentes se convierten a proveedores `space` compatibles.
 Los mapas, los plugins, los archivos de jugadores y los paquetes comprados de
 mazmorras permanecen fuera del repositorio público. Los detalles de integración
 se registran en `server/elitemobs-integration.json`.
+
+## RainxAuraBoost · Núcleo Áurico
+
+Se integra al paquete central el consumible **Núcleo Áurico** del plugin RainxAuraBoost 1.1.0. Una esquirla de amatista con `CustomModelData=260310` utiliza `rainxauraboost:item/nucleo_aurico` (textura propia 64×64). El resto de los modelos de amatista mantiene su apariencia anterior: la construcción envuelve el modelo original y sólo intercepta el valor 260310.
+
+Los archivos se guardan en `overrides/assets/rainxauraboost/` y se integran mediante `tools/integrate_rainxauraboost.py`. El workflow `rebuild-resource-pack.yml` reconstruye el mismo ZIP distribuido en `dist/RainxEnma-Slimefun-26.2.zip` y actualiza `dist/checksums.json` (requiere permisos de escritura de GitHub Actions).
+
+**Después de publicarse el nuevo ZIP**, actualiza `resource-pack-sha1` en `server.properties` con `sha1` de `dist/checksums.json` y reinicia manualmente el servidor cuando decidas. No utilices un SHA antiguo ni instales un segundo paquete de recursos.

@@ -10,6 +10,9 @@ with zipfile.ZipFile(source) as archive:
     files={p:archive.read(p) for p in archive.namelist() if not p.endswith('/')}
 for path in (ROOT/'overrides').rglob('*'):
     if path.is_file(): files[path.relative_to(ROOT/'overrides').as_posix()]=path.read_bytes()
+# Integra el item del Nucleo Aurico sin sobrescribir modelos vanilla existentes.
+from integrate_rainxauraboost import integrate as integrate_rainxauraboost
+integrate_rainxauraboost(files)
 files['LICENSE']=(ROOT/'LICENSE').read_bytes()
 files['CREDITS.md']=(ROOT/'CREDITS.md').read_bytes()
 for path,content in files.items():

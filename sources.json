@@ -109,5 +109,14 @@
     "sha256": "fb0b351a7fb10a995dc79b6d5ee611e869e583ae459a0b2aeb958258f7054763",
     "compatibility": "Minecraft Java 26.2; numeric custom_model_data and namespaced item_model; modern space font providers",
     "routes": "server/elitemobs-integration.json"
+  },
+  "rainxauraboost": {
+    "name": "Núcleo Áurico",
+    "minecraft": "26.2",
+    "item": "minecraft:amethyst_shard",
+    "custom_model_data": 260310,
+    "texture": "assets/rainxauraboost/textures/item/nucleo_aurico.png",
+    "model": "rainxauraboost:item/nucleo_aurico",
+    "source": "Diseño original para RainxAuraBoost 1.1.0"
   }
 }

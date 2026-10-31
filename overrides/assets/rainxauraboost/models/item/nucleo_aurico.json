@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rainxauraboost:item/nucleo_aurico"
+  },
+  "gui_light": "front"
+}
