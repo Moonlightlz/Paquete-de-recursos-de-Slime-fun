@@ -6,6 +6,9 @@ R=Path(__file__).resolve().parents[1]
 with zipfile.ZipFile(R/'vendor/SlimefunLegacyRP-4.0.2.zip') as base,zipfile.ZipFile(R/'dist/RainxEnma-Slimefun-26.2.zip') as out:
     base_names=set(base.namelist());out_names=set(out.namelist())
     allowed={p.relative_to(R/'overrides').as_posix() for p in (R/'overrides').rglob('*') if p.is_file()}
+    # El Nucleo Aurico modifica amethyst_shard solo a traves de un wrapper.
+    # tools/validate_rainxauraboost.py compara su fallback con el original exacto.
+    allowed.add('assets/minecraft/items/amethyst_shard.json')
     eternals=load()
     checks=0
     for p in base.namelist():
