@@ -1,0 +1,1 @@
+Modelos 3D y materiales originales preparados para RainxEnma. Namespace: rainxfood. Las 22 texturas de materiales se guardan bajo textures/item/ para el atlas de objetos de 26.2; no se importan sprites de bloques ni se redistribuyen texturas del cliente. Los platos y sus preparaciones son objetos separados de Slimefun, EliteMobs y Brewery.
