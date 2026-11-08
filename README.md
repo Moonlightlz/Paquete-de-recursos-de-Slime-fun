@@ -115,6 +115,24 @@ los IDs IE_ de InfinityExpansion2**. Este repositorio no modifica IDs, recetas,
 inventarios almacenados, encantamientos, traducciones ni datos persistentes de los
 objetos. No se debe sustituir un objeto antiguo por un objeto vanilla renombrado.
 
+## PC de bajos recursos (`/optimizacion`)
+
+El plugin RainxOptimizacion permite que cada jugador active a mano un modo ligero con `/optimizacion on`.
+Mientras el modo esté activo, el servidor le envía
+[RainxEnma-Slimefun-26.2-lite.zip](https://raw.githubusercontent.com/Moonlightlz/Paquete-de-recursos-de-Slime-fun/main/dist/RainxEnma-Slimefun-26.2-lite.zip)
+en lugar del paquete normal.
+
+`tools/build_lite_pack.py` construye ese paquete a partir del paquete central, en cada reconstrucción y en la misma
+acción de GitHub. Las texturas animadas quedan en su primer fotograma y las texturas mayores de 255 px se reducen
+por potencias de 2. Las fuentes, la interfaz, los JSON, los sonidos y los overlays no cambian.
+La memoria de texturas pasa de unos 90 MB a unos 17 MB. Las cifras de cada versión están en `dist/checksums-lite.json`.
+
+Modpack para el cliente (Fabric 26.2, con Sodium, Lithium, FerriteCore, EntityCulling, MoreCulling,
+ImmediatelyFast, Dynamic FPS y Sodium Extra):
+[RainxEnma-Ligero-26.2.mrpack](https://raw.githubusercontent.com/Moonlightlz/Paquete-de-recursos-de-Slime-fun/main/dist/RainxEnma-Ligero-26.2.mrpack).
+Se importa en Modrinth App o Prism Launcher. Los mods se descargan desde Modrinth.
+Para regenerarlo, ejecuta `python tools/modpack/make_mrpack.py`.
+
 ## Reconstrucción y auditoría
 
 ```text

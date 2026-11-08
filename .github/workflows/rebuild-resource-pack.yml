@@ -28,12 +28,16 @@ jobs:
           python tools/validate_pack.py
           python tools/validate_integration.py
           python tools/validate_rainxauraboost.py
+      - name: Construir paquete ligero (/optimizacion)
+        run: |
+          python -m pip install --quiet pillow==13.0.0
+          python tools/build_lite_pack.py
       - name: Publicar ZIP y checksum
         run: |
           if [ -n "$(git status --porcelain -- dist/)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add dist/RainxEnma-Slimefun-26.2.zip dist/checksums.json
+            git add dist/RainxEnma-Slimefun-26.2.zip dist/checksums.json dist/RainxEnma-Slimefun-26.2-lite.zip dist/checksums-lite.json
             git commit -m "build: actualizar paquete central con Nucleo Aurico"
             git push
           fi
