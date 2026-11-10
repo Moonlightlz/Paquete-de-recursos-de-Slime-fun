@@ -1,10 +1,10 @@
 {
   "file": "RainxEnma-Slimefun-26.2-lite.zip",
-  "bytes": 10288031,
-  "sha1": "84eb3c8946ff8f0d0a6691ee85ce4e39bd052e9b",
-  "sha256": "aaf56f465aa15ff12d17b9955ac2c0c8702a6d268f1a98c1c4b6f25c672cedb3",
+  "bytes": 10288118,
+  "sha1": "d34f462cf75a6e98a6b039df7871ea58f7cfa34a",
+  "sha256": "5e7f5ea5474a4999f3531670cd74b4d09907fdc6b35f16bcc7b2708eded65deb",
   "entries": 12151,
-  "source_sha1": "1ae7f78d9c386840f47cbf0108c2284366dead14",
+  "source_sha1": "a31da05eee6f83be85a051761c0b9a7bbf7a1148",
   "texture_memory_mb": {
     "normal": 90.2,
     "lite": 17.1
