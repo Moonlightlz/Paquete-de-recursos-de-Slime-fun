@@ -53,6 +53,7 @@ Minecraft 26.2 no alteran la titularidad de esos recursos.
   y la copia del Internet Archive: https://archive.org/details/soundcloud-184035090
 - Original del artista: https://youtu.be/e6YS10l_NFY
 
-Cambios: se convirtió a Ogg Vorbis estéreo de 44,1 kHz y se normalizó el volumen
-(loudnorm, −16 LUFS). La pieza no se recortó ni se alteró de ningún otro modo.
+Cambios: versión editada por el servidor RainxEnma. Se recortó (sin la intro larga,
+unos 2:15 de duración) y se ajustó la ecualización de graves y agudos. Después se
+convirtió a Ogg Vorbis estéreo de 44,1 kHz y se normalizó el volumen (loudnorm, −16 LUFS).
 La música no se incluye en el paquete ligero de `/optimizacion`.
