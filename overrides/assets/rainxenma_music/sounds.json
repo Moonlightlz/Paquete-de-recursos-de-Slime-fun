@@ -1,0 +1,10 @@
+{
+  "boss.lost_within": {
+    "sounds": [
+      {
+        "name": "rainxenma_music:boss/lost_within",
+        "stream": true
+      }
+    ]
+  }
+}

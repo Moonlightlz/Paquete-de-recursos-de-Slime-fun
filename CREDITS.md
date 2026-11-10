@@ -41,3 +41,18 @@ Iconos, modelos, texturas y fondos del paquete oficial de EliteMobs de MagmaGuy:
 https://magmaguy.com/downloads/elitemobs_resource_pack.zip .
 Se conservan sus recursos y campos de autor; las adaptaciones de rutas de
 Minecraft 26.2 no alteran la titularidad de esos recursos.
+
+## Música
+
+`assets/rainxenma_music/sounds/boss/lost_within.ogg` (evento de sonido
+`rainxenma_music:boss.lost_within`, música de la fase 4 del Vinculador de Mundos):
+
+- «Lost Within», de **A Himitsu**, publicada por **Argofox**.
+- Licencia: Creative Commons Attribution (CC BY), según la publicación de Argofox:
+  https://soundcloud.com/argofox/a-himitsu-lost-within
+  y la copia del Internet Archive: https://archive.org/details/soundcloud-184035090
+- Original del artista: https://youtu.be/e6YS10l_NFY
+
+Cambios: se convirtió a Ogg Vorbis estéreo de 44,1 kHz y se normalizó el volumen
+(loudnorm, −16 LUFS). La pieza no se recortó ni se alteró de ningún otro modo.
+La música no se incluye en el paquete ligero de `/optimizacion`.

@@ -5,6 +5,7 @@
   and atlases stay valid; results are between LIMIT and 2*LIMIT-1 px.
 - Never touched: font bitmaps, textures/gui (nine-slice sprites), textures whose .mcmeta has gui/mcmodels
   sections, every JSON, sound and overlay definition.
+- Left out: the boss music namespace (MUSIC_PREFIX), to keep the download small.
 The output is deterministic (sorted entries, fixed timestamps) so CI only commits real changes.
 Requires Pillow.
 """
@@ -18,6 +19,7 @@ OUT = ROOT / 'dist/RainxEnma-Slimefun-26.2-lite.zip'
 CHECKSUMS = ROOT / 'dist/checksums-lite.json'
 LIMIT = 128
 STAMP = (2026, 10, 14, 0, 0, 0)
+MUSIC_PREFIX = 'assets/rainxenma_music/'
 
 src = zipfile.ZipFile(SOURCE)
 names = set(src.namelist())
@@ -59,7 +61,7 @@ def first_frame(image, anim):
 files = {}
 stats = {'scaled': 0, 'frozen': 0, 'protected': 0, 'px_before': 0, 'px_after': 0}
 for name in sorted(names):
-    if name.endswith('/') or name.endswith('.png.mcmeta'):
+    if name.endswith('/') or name.endswith('.png.mcmeta') or name.startswith(MUSIC_PREFIX):
         continue
     data = src.read(name)
     if name == 'pack.mcmeta':
@@ -118,8 +120,9 @@ with zipfile.ZipFile(OUT, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as archive
         archive.writestr(info, data)
 
 for name in names:
-    if name.endswith('.json'):
+    if name.endswith('.json') and not name.startswith(MUSIC_PREFIX):
         assert files.get(name) == src.read(name), f'json changed: {name}'
+assert not any(name.startswith(MUSIC_PREFIX) for name in files), 'music left in the light pack'
 blob = OUT.read_bytes()
 result = {'file': OUT.name, 'bytes': len(blob), 'sha1': hashlib.sha1(blob).hexdigest(), 'sha256': hashlib.sha256(blob).hexdigest(),
           'entries': len(files), 'source_sha1': hashlib.sha1(SOURCE.read_bytes()).hexdigest(),
